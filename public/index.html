@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seamless Communication</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+        header {
+            background: linear-gradient(90deg, #b6419a, #81c784);
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('https://source.unsplash.com/1600x900/?technology,sign-language') no-repeat center/cover;
+            color: rgb(200, 97, 176);
+        }
+        .hero h2 {
+            font-size: 36px;
+            margin: 0;
+        }
+        .hero p {
+            margin: 20px 0 40px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .hero button {
+            background: #23355d;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .hero button:hover {
+            background: #5175ac;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px 20px;
+        }
+        .feature-card {
+            background: rgb(199, 204, 230);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .feature-card img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        .feature-card h3 {
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+        footer {
+             background: linear-gradient(90deg, #b6419a, #81c784);
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #8576c6;
+            text-decoration: none;
+        }
+        .icon {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .icon a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ISLConnect</h1>
+        <div class="icon">
+            <a href="#home">Home</a></li>
+            <a href="#about">about</a></li>
+            <a href="#search"><img src="https://img.icons8.com/ios-filled/24/ffffff/search--v1.png" alt="Search"></a>
+            <a href="#setting"><img src="https://img.icons8.com/ios-filled/24/ffffff/settings--v1.png" alt="Settings"></a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h2>Bridging the Digital World for the Deaf Community</h2>
+        <p>Making YouTube videos accessible with real-time sign language translation. Empowering communication, one video at a time.</p>
+        <button>Get Started</button>
+    </section>
+
+    <section id="features" class="features">
+        <div class="feature-card">
+            <img src="https://img.icons8.com/color/96/translate.png" alt="Real-time Translation">
+            <h3>Real-time Translation</h3>
+            <p>Instantly convert YouTube videos into sign language for seamless understanding.</p>
+        </div>
+        <div class="feature-card">
+            <img src="https://img.icons8.com/color/96/accessibility.png" alt="Accessibility for All">
+            <h3>Accessibility for All</h3>
+            <p>Breaking barriers and creating equal opportunities for the deaf community.</p>
+        </div>
+        <div class="feature-card">
+            <img src="https://img.icons8.com/color/96/video.png" alt="Easy Integration">
+            <h3>Easy Integration</h3>
+            <p>Simply paste a YouTube link to get a sign language-enabled version.</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2024 Seamless Communication. All rights reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
